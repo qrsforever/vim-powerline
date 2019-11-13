@@ -10,4 +10,5 @@ let g:Powerline#Matches#matches = {
 	\ 'minibufexplorer' : Pl#Match#Add('bufname(winbufnr(a:window))', '^\-MiniBufExplorer\-$'),
 	\ 'tagbar'          : Pl#Match#Add('getwinvar(a:window, "&ft")' , '^tagbar$'),
 	\ 'nerdtree'        : Pl#Match#Add('getwinvar(a:window, "&ft")' , '^nerdtree$'),
+	\ 'terminal'        : Pl#Match#Add('getwinvar(a:window, "&ft")' , '^terminal$'),
 \ }

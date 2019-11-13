@@ -154,7 +154,7 @@ let g:Powerline#Colorschemes#solarized256#colorscheme = Pl#Colorscheme#Init([
 		\ 'N': ['white', 'base02'],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
+	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'terminal:raw.name''tagbar:static_str.name'], {
 		\ 'n': ['gray10', 'darkestblue', ['bold']],
 		\ 'N': ['gray3', 'base02', ['bold']],
 		\ }),
@@ -164,7 +164,7 @@ let g:Powerline#Colorschemes#solarized256#colorscheme = Pl#Colorscheme#Init([
 		\ 'N': ['gray5', 'base02'],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
+	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'terminal:SPLIT','tagbar:SPLIT'], {
 		\ 'n': ['gray3', 'base02'],
 		\ 'N': ['gray3', 'base02'],
 		\ }),

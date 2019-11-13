@@ -113,5 +113,11 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , ['raw.name', '%{Powerline#Functions#GetShortPath(4)}']
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
+	\ ),
+	\
+	\ Pl#Theme#Buffer('terminal'
+		\ , ['raw.name', '%{Powerline#Functions#GetShortPath(4)}']
+		\ , Pl#Segment#Truncate()
+		\ , Pl#Segment#Split()
 	\ )
 \ )
