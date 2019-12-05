@@ -1,5 +1,6 @@
 let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 	\ Pl#Theme#Buffer(''
+		\ , 'rsync'
 		\ , 'hostname'
 		\ , 'paste_indicator'
 		\ , 'mode_indicator'

@@ -67,6 +67,11 @@ let g:Powerline#Colorschemes#solarized256#colorscheme = Pl#Colorscheme#Init([
 		\ 'N': ['white', 'base02'],
 		\ }),
 	\
+	\ Pl#Hi#Segments(['rsync'], {
+		\ 'n': ['darkestpurple', 'mediumgreen'],
+		\ 'N': ['darkestpurple', 'mediumgreen'],
+		\ }),
+	\
 	\ Pl#Hi#Segments(['hostname'], {
 		\ 'n': ['magenta', 'gray6', ['bold']],
 		\ 'N': ['magenta', 'gray6', ['bold']],
